@@ -1,0 +1,23 @@
+name: lab4_clean_architecture
+description: Lab 4 - HTTP REST APIs, JSON and Clean Architecture
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  http: ^1.6.0
+  flutter_svg: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
